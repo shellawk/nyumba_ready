@@ -1,0 +1,215 @@
+#home-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    background-color: transparent;
+}
+#house{
+    width: 99%;
+    border: 2px solid blue;
+    margin-right: 1%;
+}
+#home-div div{
+    color: black;
+    height: max-content;
+}
+#home-intro-div p, #home-intro-div p b{
+    font-size: 130%;
+    color: black;
+}
+#home-intro-div p b{
+    font-size: 120%;
+}
+#home-select-div{
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+    flex-wrap: wrap;
+}
+#home-select-div p, #home-select-div select{
+    color: black;
+    font-size: 140%;
+}
+#home-select-div select{
+    background-color: aqua;
+    padding: 1%;
+    border-radius: 5px;
+    width: 50%;
+    opacity: 0.8;
+}
+#home-select-div p{
+    margin-right: 2%;
+    
+}
+#home-select-div select option{
+    color: rgb(182, 79, 79);
+}
+#home-info{
+    font-size: 150%;
+}
+#home-info ul{
+    list-style-type: square;
+}
+#home-info p{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: fantasy;
+    width: 100%;
+    text-align: center;
+    color: orange;
+}
+#home-info ul li{
+    color: black;
+    margin-top: 20px;
+    background-color: orange;
+    width: max-content;
+}
+#home-pic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+#home-pic img{
+    height: 200px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#reviews{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+#reviews h3{
+    color: aqua;
+    background-color: black;
+    padding: 4%;
+    text-align: center;
+    align-self: center;
+    margin-top: 10%;
+    font-size: 200%;
+}
+#reviews-display{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 8%;
+}
+#reviews-display p{
+    color: blue;
+    font-size: 120%;
+    margin-left: 10%;
+}
+#reviews-display div div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: max-content;
+    width: 100%;
+}
+#reviews-display div div p{
+    margin-left: 2%;
+    color: black;
+    font-size: 90%;
+    text-decoration: underline;
+}
+.reviewer-img{
+    height: 80px;
+    border-radius: 40px;
+}
+.single-review{
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 80%;
+    padding: 1%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    background-color: white;
+    align-self: center;
+}
+#reviews-write{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    height: max-content;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+#reviews-write input{
+    width: max-content;
+    height: max-content;
+    padding: 2%;
+    margin: 4%;
+    font-size: 150%;
+    color: black;
+}
+#reviews-write button{
+    width: max-content;
+    height: max-content;
+    padding: 1%;
+    font-size: 120%;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+#reviews-write p{
+    font-size: 120%;
+}
+#span-book{
+    width: 100%;
+    height: max-content;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+#span-book button{
+    font-size: 120%;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: fantasy;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 2%;
+}
+.div-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    color: black;
+}
+#div-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1%;
+}
+#div-btn input, #div-btn button{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.div-payment p, .div-payment p i{
+    color: black;
+    font-size: 100%;
+}

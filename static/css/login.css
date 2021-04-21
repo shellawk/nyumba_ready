@@ -1,0 +1,43 @@
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background-color: black;
+    border: 5px solid orange;
+    width: max-content;
+    height: max-content;
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+    border-radius: 50px;
+    color: black;
+}
+
+.form-div input, .form-div button, .form-div select{
+    margin-top: 10%;
+    font-size: 130%;
+    width: 100%;
+    border-radius: 10px;
+    align-self: center;
+    padding: 5%;
+    color: black;
+    border: 3px solid orange;
+}
+
+.form-div button{
+    width: 60%;
+    background-color: greenyellow;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 2%;
+    margin-top: 10%;
+    margin-right: auto;
+    color: black;
+}
+.form-div p{
+    color: red;
+    align-self: center;
+    font-size: 120%;
+}

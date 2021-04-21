@@ -1,0 +1,16 @@
+#head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+#head h1{
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 200%;
+    text-shadow: 5px 5px black;
+    color: aqua;
+}

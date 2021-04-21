@@ -1,0 +1,188 @@
+body{
+    color: red;
+    background-color: gray;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#head h1{
+    color: grey;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline dashed grey;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+    height: max-content;
+}
+#navbar ul li button{
+    color: black;
+    font-size: 200%;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 4%;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+}
+#add-houses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: max-content;
+    padding-top: 1%;
+}
+#add-houses input, #add-houses select, #add-houses select option{
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    padding: 1%;
+    border-radius: 10px;
+    
+}
+#div-add-house-btn{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+#btn-add-house{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    font-size: 120%;
+    border-radius: 30px;
+}
+#manage-houses{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: max-content;
+}
+.table{
+    width: max-content;
+    height: max-content;
+    border: 2px solid orange;
+}
+.table tr{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.table th{
+    width: max-content;
+    background-color: orange;
+    color: black;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: cursive;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+#table-house{
+    width: 90%;
+    align-self: center;
+    margin-top: 5%;
+}
+.table tr{
+    font-size: 110%;
+    padding-top: 100px;
+}
+.table tr button{
+    padding: 6%;
+    border-radius: 5px;
+    align-self: center;
+    width: 100%;
+}
+#all-users, #all-records{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#table-all-users{
+    align-self: center;
+    width: 80%;
+}
+#div-user-report p, #div-book-report p{
+    width: 100%;
+    font-size: 150%;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    text-shadow: 5px black;
+}
+#add-pic{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 5%;
+    justify-content: center;
+    background-color:  orange;
+    color: black;
+    align-self: center;
+    margin-left: 25%;
+}
+#add-pic form{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-top: 3%;
+}
+#add-pic form input{
+    font-size: 130%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#div-login, #div-err{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+}
+#div-login input{
+    font-size: 120%;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+#div-login button{
+    font-size: 110%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
+
+}
+#error-login{
+    font-size: 150%;
+}

@@ -1,0 +1,20 @@
+#navbar-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-self: flex-end;
+}
+#navbar-div button{
+    color: black;
+    font-size: 120%;
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: aqua;
+    border-radius: 35px;
+    font-family: fantasy;
+    border: 2px solid black;
+}
