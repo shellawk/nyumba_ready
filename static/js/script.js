@@ -60,7 +60,7 @@ function login(){
             if(xhr.status == 200){
                 console.log('set_cookie');
                 setCookie('token', this.responseText, 1);
-                window.location.href = '/';
+                window.location.href = window.location.href;
             } else if(xhr.status == 501){
                 errorP.innerHTML = this.responseText;
             }
@@ -134,7 +134,7 @@ function deleteCookie(cname) {
 }
 function logout(){
     deleteCookie('token');
-    window.location.href = '/';
+    window.location.href = window.location.href;
 }
 
 ////profile functions
@@ -230,7 +230,7 @@ function createDisplayView(info){
     createDescription();
     descriptionView("Type: " + info['type']);
     descriptionView("Location: " + info['location']);
-    descriptionView("Rent: " + info['rent']);
+    descriptionView("Rent: " + "Ksh. " + info['rent']);
     descriptionView("Vacancy: " + info['vacancy']);
     descriptionView("Contact Owner: " + info['owner_contact']);
     addButtton();

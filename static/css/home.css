@@ -20,6 +20,7 @@
 #home-intro-div p, #home-intro-div p b{
     font-size: 130%;
     color: black;
+    background-color: aliceblue;
 }
 #home-intro-div p b{
     font-size: 120%;

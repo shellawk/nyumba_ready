@@ -14,6 +14,7 @@
                 <th>House</th>
                 <th>Email</th>
                 <th>Amount</th>
+                <th>Status</th>
                 <th>Manage</th>
             </tr>
         ";
@@ -24,6 +25,7 @@
                     <td>{$record['house']}</td>
                     <td>{$record['email']}</td>
                     <td>{$record['amount']}</td>
+                    <td>{$record['status']}</td>
                     <td><button class=\"btn-remove-record\" onclick=\"removeRecord('{$record['ref']}')\">CLEAR</button></td>
                 </tr>
             ";

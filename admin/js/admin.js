@@ -2,7 +2,7 @@ var mainDiv, navbarDiv, addPicDiv, houseIdInput;
 let formData = [];
 var houseId;
 var pagePath = function(page){
-    return './admin/' + page + '.php';
+    return window.location.href + page + '.php';
 }
 
 window.onload = function(){
@@ -22,7 +22,7 @@ function loadBookPage(){
     getLoadPage(mainDiv, 'records');
 }
 var apiPath = function(api){
-    path = 'static/api/' + api + '.php';
+    path = '../static/api/' + api + '.php';
     return path;
 }
 function getLoadPage(div, page){
@@ -101,7 +101,6 @@ function addPic(id){
             addPicDiv = document.getElementById('add-pic');
             addPicDiv.innerHTML = this.responseText;
             document.getElementById('house_id').value = id;
-            console.log(document.getElementById('house_id').value);
         }
     }
     xhr.open("GET", pagePath('add_pic'), true);
@@ -130,5 +129,5 @@ function deleteCookie(cname) {
 }
 function logout(){
     deleteCookie('auth_token');
-    window.location.href = './admin';
+    window.location.href = window.location.href;
 }

@@ -103,5 +103,31 @@
                 return 0;
             }
         }
+        public function deleteBookRecordByUser(){
+            $sql = "DELETE FROM book WHERE user_id=:user_id";
+            $stmt = $this -> conn -> prepare($sql);
+            $stmt -> bindParam(":user_id", $this -> user_id);
+
+            try{
+                $stmt -> execute();
+                return 1;
+            }catch(PDOEXception $e){
+                echo "ERROR:::::::::::::" . $e -> getMessage();
+                return 0;
+            }
+        }
+        public function deleteBookRecordByHouse(){
+            $sql = "DELETE FROM book WHERE house_id=:house_id";
+            $stmt = $this -> conn -> prepare($sql);
+            $stmt -> bindParam(":house_id", $this -> house_id);
+
+            try{
+                $stmt -> execute();
+                return 1;
+            }catch(PDOEXception $e){
+                echo "ERROR:::::::::::::" . $e -> getMessage();
+                return 0;
+            }
+        }
     }
 ?>

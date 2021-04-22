@@ -5,6 +5,7 @@
 <div id="home-div">
     <div id="home-intro-div">
         <p><b>NYUMBA READY</b> helps you find a new home with just a few key strokes. We've compiled an assortment of unoccupied bedsitters and single rooms around Juja.</p>
+        <p>A space can be reserved for any house at <b>10%</b> of the rent.</p>
     </div>
     <div id="home-select-div" onchange="displayInfo()">
         <p>Pick a house to view details: </p>

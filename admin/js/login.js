@@ -8,12 +8,12 @@ function login(){
     }
     let data = "username=" + username + "&password=" + password;
     xhr = new XMLHttpRequest();
-    xhr.open('POST', 'static/api/admin_login.php', true);
+    xhr.open('POST', '../static/api/admin_login.php', true);
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
     xhr.onload = function () {
         if(this.status == 200 && this.responseText != '0'){
            setCookie('auth_token', this.responseText, 1);
-           window.location.href = "./admin";
+           window.location.href = window.location.href;
         }
     };
     xhr.send(data);
